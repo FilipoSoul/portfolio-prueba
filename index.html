@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio | Desarrollador Creative</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfo<span>lio</span></div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="menu-toggle">☰</div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Hola, soy <span class="highlight">Tu Nombre</span></h1>
+            <h2>Desarrollador & Diseñador Creative</h2>
+            <p>Creo experiencias digitales innovadoras que inspiran y conectan.</p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-secondary">Contactarme</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-block">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <pre><code><span class="keyword">const</span> <span class="var">developer</span> = {
+  <span class="prop">name</span>: <span class="string">"Tu Nombre"</span>,
+  <span class="prop">skills</span>: [<span class="string">"JavaScript"</span>, <span class="string">"React"</span>, <span class="string">"Node.js"</span>],
+  <span class="prop">passion</span>: <span class="string">"Crear impacto"</span>
+};</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Soy un desarrollador passionate por crear soluciones digitales que marquen la diferencia. Con experiencia en desarrollo web y diseño UI/UX, combino funcionalidad con estética para crear productos memorables.</p>
+                    <div class="skills">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">CSS/SASS</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>5+</h3>
+                        <p>Años de Experiencia</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>50+</h3>
+                        <p>Proyectos Completados</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>30+</h3>
+                        <p>Clientes Satisfechos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🚀</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Plataforma de comercio electrónico con carrito de compras, pagos y panel de administración.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">Ver Proyecto →</a>
+                    </div>
+                </article>
+                
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">📱</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Manager App</h3>
+                        <p>Aplicación de gestión de tareas con sincronización en tiempo real y collaborate.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>PWA</span>
+                        </div>
+                        <a href="#" class="project-link">Ver Proyecto →</a>
+                    </div>
+                </article>
+                
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🎨</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Generator</h3>
+                        <p>Herramienta para generar portfolios personalizados desde templates prediseñados.</p>
+                        <div class="project-tags">
+                            <span>Next.js</span>
+                            <span>Tailwind</span>
+                            <span>TypeScript</span>
+                        </div>
+                        <a href="#" class="project-link">Ver Proyecto →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hablemos</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¿Tienes un proyecto en mente?</h3>
+                    <p>Me encantaría escuchar sobre tu proyecto y cómo puedo ayudarte a hacerlo realidad.</p>
+                    <div class="contact-links">
+                        <a href="mailto:tu@email.com" class="contact-link">
+                            <span class="icon">✉️</span>
+                            tu@email.com
+                        </a>
+                        <a href="#" class="contact-link">
+                            <span class="icon">💼</span>
+                            LinkedIn
+                        </a>
+                        <a href="#" class="contact-link">
+                            <span class="icon">🐙</span>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Tu Nombre" required>
+                    <input type="email" placeholder="Tu Email" required>
+                    <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Tu Nombre. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
